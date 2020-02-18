@@ -1,0 +1,35 @@
+  input[type=text], input[type=password] {
+    margin: 5px 1px;
+    display: inline-block;
+    float: left;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+
+  #btn:hover {
+    opacity: 0.8;
+  }
+
+  label {
+      display: inline-block;
+      float: left;
+      clear: left;
+      width: 100px;
+  }
+  
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    background-color: #555555;
+    color: #e1ecdb;
+    font-family: arial;
+    font-size: 12px;
+  }
+
+  body {
+      background-color: #212121;
+  }
